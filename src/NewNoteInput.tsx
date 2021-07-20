@@ -16,7 +16,7 @@ export const NewNoteInput:React.FC<Props>=({addNote})=>{
     <div>
       <input 
         type="text" 
-        placeholder="write notes" 
+        placeholder="Notes" 
         onChange={updateNote} 
         value={note}
       />
